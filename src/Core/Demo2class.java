@@ -37,7 +37,7 @@ public class Demo2class {
 		WebElement searchbyname = driver.findElement(By.xpath("//input[@title='Search for products, brands and more']"));
 		searchbyname.sendKeys("Kurties for women");
 		
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 
 		WebElement Submit = driver.findElement(By.xpath("//button[@class='L0Z3Pu']"));
 		Submit.click();
